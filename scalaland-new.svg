@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1064px" height="729px" viewBox="0 0 1064 729" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#4FE1FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#B4EC51" offset="0%"></stop>
+            <stop stop-color="#429321" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="403.145921 202.155446 580.135142 148.170404 601.195131 180.925106 369.886508 253.91247"></polygon>
+        <filter x="-5.6%" y="-10.4%" width="113.8%" height="130.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="3" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-6" points="351.850945 281.934983 612.075562 197.835798 633.135552 230.5905 318.591532 333.692008"></polygon>
+        <filter x="-4.1%" y="-8.1%" width="110.2%" height="123.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="3" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-8" points="299.590097 363.235409 647.05037 252.12377 668.11036 284.878471 266.330685 414.992434"></polygon>
+        <filter x="-3.2%" y="-6.8%" width="108.0%" height="119.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="3" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle" stroke="#434343" stroke-width="20" fill="url(#linearGradient-1)" points="509 19 959 719 59 719"></polygon>
+        <path d="M19,718.598251 L90.7499887,606.987173 L137.121722,534.853375 C211.681304,432.926346 292.729061,432.926346 380.264995,534.853375 C511.568896,687.743919 464.76285,584.245437 579.891188,549.925309 C695.019526,515.605181 681.054947,457.182168 721.781508,433.046204 C762.508069,408.910239 842.762627,411.651277 893.730345,498.81344 C968.505045,591.792224 1019.78236,665.053828 1047.56229,718.598251 L19,718.598251 Z" id="Path-2" stroke="#3E3E3E" stroke-width="20" fill="url(#linearGradient-2)"></path>
+        <g id="Path-3">
+            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+        </g>
+        <g id="Path-3">
+            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-6"></use>
+        </g>
+        <g id="Path-3">
+            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-8"></use>
+        </g>
+    </g>
+</svg>
